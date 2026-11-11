@@ -12,13 +12,19 @@ html {
 }
 body {
     font-family: "Roboto slab";
-    background-color: gray;
+    background-color: darkcyan;
 }
 
 h1,a,p,h2,h3,li{
     font-style: none;
     list-style: none;
 }
+
+.intro{
+    background-color: white;
+   margin-top: 200px;
+}
+
 .container{
     padding: 0px 84px;
 }
@@ -26,7 +32,6 @@ header{
     width: 100%;
     height: 71px;
     border-bottom: 2.5px solid #859ed18f;
-    background-color: rgba(245, 245, 245, 0.7);
     position: fixed;
     top: 0;
     z-index: 10;
@@ -54,4 +59,278 @@ header{
 }
 .header-right{
     float: right;
+}
+
+.intro{
+    height: 550px;
+}
+.intro h2{
+    margin-top: 210px;
+    color: #254A99;
+    font-size: 33px;
+    font-weight: 500;
+}
+.intro h1{
+    color: #254A99;
+    font-size: 78px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+.intro p{
+    font-size: 16px;
+    color: rgba(75, 75, 75, 0.856);
+    margin-bottom: 3px;
+    text-align: left;
+}
+.intro img{
+    float: right;
+    position: relative;
+    top: -340px;
+    height: 493px;
+}
+
+btn-intro{
+    background-color: #254A99;
+    color: #fff;
+    width: fit-content;
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 52px;
+    margin-top: 30px;
+    opacity: 0.75;
+}
+.btn-intro:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+profile{
+    height: 823px;
+    background-color: #26499A;
+}
+.pict-profile {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    border: 17px solid #FFD40D;
+    margin: 98px 49px 98px 0;
+}
+.contents-profile{
+    display: flex;
+    flex-direction: row;
+}
+.info-cv h2{
+    font-size: 46px;
+    margin-top: 175px;
+    margin-bottom: 42px;
+}
+.info-cv p{
+    padding-top: 3px;
+    font-size: 21px;
+}
+.info-cv h2,p {
+    width: 600px;
+    text-align: center;
+    color: white;
+}
+
+.judul-hobi{
+    text-align: center;
+    font-size: 60px;
+    margin-left: 150px;
+}
+
+.content-hobi{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: white;
+    width: 1033px;
+    height: 1200px;
+    margin: 50px auto;
+    border-radius: 33px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+.content-hobi p{
+    color: #6D6D6D;
+    text-align: left;
+    width: 550px;
+    line-height: 30px;
+    margin-left: 80px;
+}
+
+.pict-hobi img{
+    width: 200px;
+    height: 200px;
+    margin-top: 18px;
+    line-height: 30px;
+    margin-left: 65px
+}
+
+.detail-hoby p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.detail-hoby h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.detail-hoby{
+    margin-left: 65px;
+    margin-top: 40px;
+    background-color: yellow;
+    width: 330px;
+    height: 340px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+
+.detail-hoby p{
+    font-size: 15px;
+    color: white;
+}
+
+.detail-hoby span{
+    text-align: center;
+    margin-left: 115px;
+}
+
+.detail-hoby2{
+    margin-top: 400px;
+    text-align: left;
+    margin-left: 150px;
+    background-color: aquamarine;
+    width: 333px;
+    height: 355px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+
+.teks{
+    margin-top: 20px;
+    background-color: darkcyan;
+    border-radius: 25px;
+    border: 6px solid white;
+}
+
+.detail-hoby2 h1{
+    text-align: center;
+}
+
+.pict-hobi2 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.teks2 p{
+    font-size: 20px;
+    color: white;
+}
+
+.teks2{
+    text-align: center;
+    background-color: chartreuse;
+    border-radius: 25px;
+    border: 6px solid white;
+     margin-top: 30px;
+}
+
+.detail-hoby3{
+   margin-top: 350px;
+   text-align: center;
+    background-color: blanchedalmond;
+    width: 333px;
+    height: 395px;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.detail-hoby3 img{
+    width: 270px;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.teks3{
+    margin-top: 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: 6px solid white;
+}
+
+.detail-hoby3 span{
+    margin-left: 15px;
+    
+}
+
+.detail-hoby3 p{
+    color: black;
+    margin-left: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  font-size: 50px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+  margin-left: 90px;
+}
+
+.home{
+    margin-top: 50px;
+}
+
+.my-mine{
+    margin-top: 50px;
+}
+
+.about{
+    margin-top: 50px;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.socmed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socmed img{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+footer{
+    padding-top: 95px;
+    margin-top: 70px;
+    width: 100%;
+    height: 230px;
+    background-color: #D8DEEE;
+}
+footer p{
+    font-size: 21px;
+    color: #254A99;
+    margin: 28px auto;
 }
